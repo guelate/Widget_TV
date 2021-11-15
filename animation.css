@@ -1,0 +1,68 @@
+body {
+    
+    background-color: #C7CFCF;
+}
+.btn {
+    position: relative;
+    top:215px; left:150px;
+    border:thick double #7C8583;
+    width: 95px;
+    animation-name: chgment_color;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes chgment_color{
+    from{
+    
+        background-color: #AEF1F1;
+    }
+
+to{
+
+    background-color: #1CA2A2;
+    border-radius: 50px;
+}
+
+}
+
+button:nth-of-type(1){
+    position: relative;
+    top:220px; left:600px;
+}
+button:nth-of-type(2){
+    position: relative;
+    top:250px; left:505px;
+}
+button:nth-of-type(3){
+    position: relative;
+    top:280px; left:410px;
+}
+button:nth-of-type(4){
+    position: relative;
+    top:310px; left:315px;
+}
+button:nth-of-type(5){
+    position: relative;
+    top:340px; left:220px;
+}
+button:nth-of-type(6){
+    position: relative;
+    top:370px; left:125px;
+}
+button:nth-of-type(7){
+    position: relative;
+    top:401px; left:30px;
+}
+button:nth-of-type(8){
+    position: relative;
+    top:431px; left:-65px;
+}
+button:nth-of-type(9){
+    position: relative;
+    top:461px; left:-160px;
+}
+button:nth-of-type(10){
+    position: relative;
+    top:490px; left:-255px;
+}
